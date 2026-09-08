@@ -1,0 +1,135 @@
+# =========================================================
+# Unreal Engine
+# =========================================================
+
+# Compiled binaries
+Binaries/
+
+# Intermediate build files
+Intermediate/
+
+# Local saved files, autosaves, logs, crashes, etc.
+Saved/
+
+# Derived Data Cache
+DerivedDataCache/
+
+# Unreal temporary build folders
+Build/*
+
+# Keep important Build resources if they exist
+!Build/
+!Build/**/
+!Build/*.ico
+!Build/**/*.ico
+!Build/Android/
+!Build/IOS/
+
+# =========================================================
+# Visual Studio
+# =========================================================
+
+# Visual Studio local settings
+.vs/
+
+# Generated Visual Studio solution/project files
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# IntelliSense / browsing database
+*.sdf
+*.opensdf
+*.VC.db
+*.ipch
+
+# Visual Studio Code Analysis
+*.lastcodeanalysissucceeded
+
+# =========================================================
+# C / C++
+# =========================================================
+
+*.obj
+*.o
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+
+# =========================================================
+# Unreal Plugins
+# =========================================================
+
+# Ignore generated files inside plugins
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Plugin generated VS files
+Plugins/**/*.sln
+Plugins/**/*.vcxproj
+Plugins/**/*.vcxproj.filters
+Plugins/**/*.vcxproj.user
+
+# =========================================================
+# Unreal debugging / profiling
+# =========================================================
+
+*.log
+*.dmp
+
+# =========================================================
+# Packaging / builds
+# =========================================================
+
+StagedBuilds/
+Packaged/
+Packages/
+
+# =========================================================
+# Operating System junk
+# =========================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# =========================================================
+# Optional editor/temp files
+# =========================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# =========================================================
+# DO NOT IGNORE THESE
+# =========================================================
+#
+# Content/
+# Config/
+# Source/
+# Plugins/YourPlugin/Source/
+# *.uproject
+#
+# These should normally be committed.
